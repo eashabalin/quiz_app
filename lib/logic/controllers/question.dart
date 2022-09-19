@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quiz/data/repository/firestore.dart';
-import 'package:quiz/data/repository/quiz_api.dart';
+import 'package:quiz/repository/firestore.dart';
+import 'package:quiz/repository/quiz_api.dart';
 import 'package:quiz/logic/model/question.dart';
 import 'package:quiz/logic/model/score.dart';
-import 'package:quiz/presentation/screens/result/result.dart';
+import 'package:quiz/screens/result/result.dart';
 
 class QuestionController extends GetxController {
   final int _questionLimit = 10;

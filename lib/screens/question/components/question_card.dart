@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:quiz/logic/controllers/question.dart';
 import 'package:quiz/logic/model/question.dart';
-import 'package:quiz/presentation/screens/question/components/answer_option.dart';
+import 'package:quiz/screens/question/components/answer_option.dart';
 
 class QuestionCard extends StatelessWidget {
   const QuestionCard({

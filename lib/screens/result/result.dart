@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:quiz/logic/controllers/question.dart';
-import 'package:quiz/presentation/screens/home/home.dart';
+import 'package:quiz/screens/home/home.dart';
 import 'package:quiz/utils/colors.dart';
 
 class ResultScreen extends StatelessWidget {

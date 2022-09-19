@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:quiz/data/repository/firestore.dart';
+import 'package:quiz/repository/firestore.dart';
 import 'package:quiz/logic/model/score.dart';
 
 class ScoreController extends GetxController {

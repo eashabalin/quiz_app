@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:quiz/presentation/screens/question/question.dart';
+import 'package:quiz/screens/question/question.dart';
 
 class HomeController extends GetxController {
   RxList<String> categoryOptions = <String>[
